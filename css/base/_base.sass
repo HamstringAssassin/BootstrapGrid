@@ -1,39 +1,29 @@
 
 //	Typography
-
-.gigantic, .huge, .large, .bigger, .big, 
 h1, h2, h3, h4, h5, h6
-	color: #BD5248
+	font-color: #E1C184
 	font-weight: bold
-
-.gigantic
-	font-size: 110px
-	line-height: 1.09
-	letter-spacing: -2px
-
-.huge, h1
+	
+h1
 	font-size: 68px
 	line-height: 1.05
 	letter-spacing: -1px
 
-.large, h2
+h2
 	font-size: 42px
 	line-height: 1.14
 
-.bigger, h3 
+h3 
 	font-size: 26px
 	line-height: 1.38
 
-.big, h4
+h4
 	font-size: 22px
 	line-height: 1.38
 
-.small, small 
-	font-size: 10px
-	line-height: 1.2
-
 p
 	margin: 0 0 20px 0
+	padding: 20px 20px 20px 20px
 
 em
 	font-style: italic
@@ -50,14 +40,13 @@ hr
 
 
 // Links
-
 a
-	color: #e5eaee
+	color: #E1C184
 	text-decoration: none
 	outline: 0
 
 a:hover, a:focus
-	color: lighten(#e5eaee, 20%)
+	color: lighten(#E1C184, 20%)
 
 // Selection colors (easy to forget)
 
@@ -79,7 +68,7 @@ body
 // Basic Styles
 
 body
-	background: #fff
+	background: #fafafa
 	font-size: 14px
 	line-height: 1.6
 	font-family: 'Open Sans' sans-serif
@@ -90,28 +79,3 @@ body
 svg
 	width: 100%
 	height: 100%
-
-h3
-	font:
-		size: 14px
-		weight: 700
-	text-transform: uppercase
-	color: #E1C184
-	text-align: center
-	padding: 100px 0 30px
-
-fieldset
-	padding: 0
-	margin: 0
-	sborder: none
-
-@media screen and (max-width: 480px)
-	h3
-		padding: 50px 0 50px
-
-section:nth-child(odd)
-	background: #F6F6F8
-	padding-bottom: 100px
-
-	h3
-		color: darken(#E1C184, 10%)
